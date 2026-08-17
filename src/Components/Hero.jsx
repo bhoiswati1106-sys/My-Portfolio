@@ -1,4 +1,4 @@
-import "../css/Hero.css";
+import "../CSS/Hero.css";
 
 function Hero() {
   return (

@@ -1,4 +1,4 @@
-import "../css/Certificates.css";
+import "../CSS/Certificates.css";
 
 function Certificates() {
   const certificates = [

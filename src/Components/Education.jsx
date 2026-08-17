@@ -1,4 +1,4 @@
-import "../css/Education.css";
+import "../CSS/Education.css";
 
 function Education() {
   const education = [
