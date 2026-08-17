@@ -25,3 +25,22 @@ nav a {
 nav a:hover {
   color: #a855f7;
 }
+
+@media (max-width: 600px) {
+  nav {
+    padding: 18px 6%;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav div {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+}

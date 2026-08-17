@@ -62,3 +62,31 @@
 .hero-buttons a:hover {
   transform: translateY(-3px);
 }
+
+@media (max-width: 600px) {
+  .hero {
+    min-height: auto;
+    padding: 80px 6%;
+  }
+
+  .hero h1 {
+    font-size: 44px;
+  }
+
+  .hero h2 {
+    font-size: 26px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero-buttons a {
+    text-align: center;
+  }
+}
